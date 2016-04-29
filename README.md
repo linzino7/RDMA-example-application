@@ -1,6 +1,7 @@
 # RDMA-example-application
 Writing RDMA applications on Linux Example programs  by Roland Dreier.
 
+source: http://www.digitalvampire.org/rdma-tutorial-2007/notes.pdf
 
 #use
 
