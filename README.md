@@ -16,7 +16,7 @@ server :
 $ cc -o server server.c -lrdmacm 
 
 
-#run
+##run
 server :
 
 $ ./server
