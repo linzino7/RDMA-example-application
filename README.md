@@ -3,11 +3,11 @@ Writing RDMA applications on Linux Example programs  by Roland Dreier.
 
 source: http://www.digitalvampire.org/rdma-tutorial-2007/notes.pdf
 
-#use
+# use
 
 please make sure you have  rdma  and libibverbs  library.
 
-##compiler
+## compiler
 client :
 
 $ cc -o client client.c -lrdmacm -libverbs
@@ -17,7 +17,7 @@ server :
 $ cc -o server server.c -lrdmacm 
 
 
-##run
+## run
 server :
 
 $ ./server
