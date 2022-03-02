@@ -16,6 +16,7 @@ server :
 
 $ cc -o server server.c -lrdmacm -libverbs
 
+| @shrebhan thanks! 
 
 ## run
 server :
