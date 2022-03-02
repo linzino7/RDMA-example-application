@@ -14,7 +14,7 @@ $ cc -o client client.c -lrdmacm -libverbs
 
 server :
 
-$ cc -o server server.c -lrdmacm 
+$ cc -o server server.c -lrdmacm -libverbs
 
 
 ## run
