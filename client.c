@@ -191,7 +191,7 @@ int main(int argc, char   *argv[ ])
 	send_wr.sg_list               = &sge;
 	send_wr.num_sge               = 1;
 	send_wr.wr.rdma.rkey          = ntohl(server_pdata.buf_rkey);
-	send_wr.wr.rdma.remote_addr   = ntohl(server_pdata.buf_va);
+	send_wr.wr.rdma.remote_addr   = be64toh(server_pdata.buf_va);
 
 	if (ibv_post_send(cm_id->qp, &send_wr, &bad_send_wr))
 		return 1;
